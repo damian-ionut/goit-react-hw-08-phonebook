@@ -1,0 +1,32 @@
+.authNavContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regContainer,
+.logContainer {
+  flex: 1; 
+  margin-right: 10px; 
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  background-color: #0056b3;
+}
+
+.registerLink {
+  margin-right: 10px; 
+}
